@@ -1,0 +1,120 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* our style */
+.underline {
+  width: 5rem;
+  height: 5px;
+  background-color: rgb(61, 185, 235);
+  margin-bottom: 1.25rem;
+  font-weight: bold;
+  margin: 10px auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+  margin-top: 100px;
+}
+
+.infoContainer {
+  text-align: left;
+  margin-left: 50px;
+}
+
+.format {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.dates {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.activeBtn {
+  padding: 5px 10px;
+  color: rgb(61, 185, 235);
+  border: none;
+  margin: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: transparent;
+  font-size: 24px;
+  border-left: 5px solid rgb(61, 185, 235);
+}
+
+.btn {
+  padding: 5px 10px;
+  border: none;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: transparent;
+  font-size: 24px;
+}
+
+.infoContainer .duties {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.icon {
+  color: rgb(61, 185, 235);
+  font-weight: bold;
+  font-size: 40px;
+  margin-right: 20px;
+}
