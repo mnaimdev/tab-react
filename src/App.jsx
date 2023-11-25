@@ -42,6 +42,8 @@ function App() {
           {
             data.map((item, index) => {
               return (
+                // <button key={index} onClick={() => setValue(index)} className={index === value ? 'activeBtn': 'btn'}>{item.company}</button>
+
                 <button key={index} onClick={() => setValue(index)} className={index === value ? 'activeBtn': 'btn'}>{item.company}</button>
               )
             })
